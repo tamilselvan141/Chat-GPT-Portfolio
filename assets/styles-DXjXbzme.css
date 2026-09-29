@@ -117,3 +117,6 @@ main>hr,main section>hr{display:none}
 .project-design-frame:focus-within{outline:none}
 .project-design-frame>article:focus-within,.project-design-frame>article:active{border-color:#fff;box-shadow:none}
 .project-design-frame:has(a:focus-visible){outline:2px solid var(--button-border);outline-offset:3px}
+
+/* Static GitHub Pages export: reveal content without client hydration. */
+.reveal{opacity:1!important;transform:none!important}
